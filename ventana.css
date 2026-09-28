@@ -1,0 +1,71 @@
+.tarjeta {
+    width: 300px;
+    padding: 40px;
+    background-color: #111111;
+    color: white;
+    border: 1px solid #555454;
+    border-radius: 15px;
+    margin: 50px auto;
+}
+
+.tarjeta h2 {
+    color: white;
+}
+
+.tarjeta p {
+    color: #cccccc;
+}
+
+.tarjeta button {
+    background-color: #c8102e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* VENTANA */
+
+.ventana {
+    display: none;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* CONTENIDO DE LA VENTANA */
+
+.contenido {
+    width: 400px;
+    background-color: #111111;
+    color: white;
+
+    padding: 30px;
+    margin: 100px auto;
+
+    border: 1px solid #555454;
+    border-radius: 15px;
+}
+
+.contenido h2 {
+    color: #c8102e;
+}
+
+.contenido button {
+    float: right;
+    background-color: #c8102e;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
